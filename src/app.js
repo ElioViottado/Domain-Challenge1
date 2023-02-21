@@ -8,9 +8,9 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
 
-  var pronoun = ["the", "our"];
-  var adj = ["great", "big"];
-  var noun = ["jogger", "racoon"];
+  const pronoun = ["the", "our"];
+  const adj = ["great", "big"];
+  const noun = ["jogger", "racoon"];
 
   pronoun.forEach(function(pronounItem) {
     adj.forEach(function(adjItem) {
